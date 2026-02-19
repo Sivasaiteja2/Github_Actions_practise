@@ -8,4 +8,9 @@ jobs:
        run: |
         echo "sai"
         echo "welcome"
-       
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: new-task
+        run: echo "this is 2nd job"
+      
