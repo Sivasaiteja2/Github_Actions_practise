@@ -1,0 +1,10 @@
+name: Practise_sheet
+on: push
+jobs:
+  hello:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Hellostep
+       run: |
+        echo "Demo build"
+        echo "welcome"
