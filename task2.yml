@@ -1,4 +1,4 @@
-name: Practise_sheet
+name: Practise_sheet2
 on: push
 jobs:
   hello:
