@@ -13,4 +13,10 @@ jobs:
     steps:
       - name: new-task
         run: echo "this is 2nd job"
-      
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy-task
+        run: |
+         echo "new-deployment"
+         echo "This new task"
